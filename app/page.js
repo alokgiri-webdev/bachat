@@ -1,5 +1,6 @@
+import {Button} from '@/components/ui/button';
 export default function Home() {
   return (
-    <div> Welcome to Bachat </div>
+    <Button variant='destructive'> Welcome to Bachat </Button>
   );
 }
